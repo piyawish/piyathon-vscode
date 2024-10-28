@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Piyathon",
+	"scopeName": "source.piyathon",
+	"patterns": [
+		{
+			"include": "source.python"
+		},
+		{
+			"include": "#thai-keywords"
+		}
+	],
+	"repository": {
+		"thai-keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.piyathon",
+					"match": "\\b(ถ้า|มิฉะนั้น|สำหรับ|ใน|ขณะที่|ลอง|ยกเว้น|ท้ายที่สุด|ด้วย|เป็น|คลาส|จาก|นำเข้า|ทำให้|ส่งคืน|ผ่าน|ทำต่อ|หยุด)\\b"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "piyathon-vscode",
+  "displayName": "Piyathon",
+  "description": "Piyathon language support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "extensionDependencies": [
+    "ms-python.python"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "piyathon",
+        "aliases": [
+          "Piyathon",
+          "piyathon"
+        ],
+        "extensions": [
+          ".pi"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "piyathon",
+        "scopeName": "source.piyathon",
+        "path": "./syntaxes/piyathon.tmLanguage.json"
+      }
+    ]
+  },
+  "main": "./extension.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.94.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "eslint": "^9.13.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
