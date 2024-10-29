@@ -63,3 +63,8 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+## Sources
+
+* [Python language configuration](https://github.com/microsoft/vscode/blob/main/extensions/python/language-configuration.json)
+* [Python syntax](https://github.com/microsoft/vscode/blob/main/extensions/python/syntaxes/MagicPython.tmLanguage.json)

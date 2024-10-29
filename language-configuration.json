@@ -1,7 +1,9 @@
 {
   "extends": "python",
-  "indentationRules": {
-    "increaseIndentPattern": "^\\s*(?:class|def|for|if|elif|else|while|try|with|finally|except|ถ้า|มิฉะนั้น|สำหรับ|ขณะที่|ลอง|ยกเว้น|ท้ายที่สุด|ด้วย|คลาส).*$",
-    "decreaseIndentPattern": "^\\s*(?:elif|else|except|finally|มิฉะนั้น|ยกเว้น|ท้ายที่สุด).*$"
-  }
+  "onEnterRules": [
+    {
+      "beforeText": "^\\s*(?:นิยาม|คลาส|สำหรับ|ถ้า|อื่นถ้า|อื่น|ขณะที่|ลอง|ด้วย|สุดท้าย|ยกเว้น|อะซิงค์).*?:\\s*$",
+      "action": { "indent": "indent" }
+    }
+  ]
 }

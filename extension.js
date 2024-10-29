@@ -1,5 +1,5 @@
 const vscode = require("vscode");
-const { formatPiyathon } = require("./src/piyathonFormatter");
+const { formatPiyathon } = require("./piyathonFormatter");
 
 function activate(context) {
   let disposable =
