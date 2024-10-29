@@ -1,0 +1,78 @@
+{
+	"information_for_contributors": [
+		"This is a Piyathon syntax definition that extends MagicPython to support Thai keywords"
+	],
+	"name": "Piyathon",
+	"scopeName": "source.piyathon",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#literals"
+		},
+		{
+			"include": "source.python#expression-base"
+		},
+		{
+			"include": "source.python#member-access"
+		},
+		{
+			"include": "source.python"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"match": "\\b(นิยาม)\\b",
+					"name": "storage.type.function.python"
+				},
+				{
+					"match": "\\b(อะซิงค์)\\b(?=\\s+นิยาม)",
+					"name": "storage.type.function.async.python"
+				},
+				{
+					"match": "\\b(คลาส)\\b",
+					"name": "storage.type.class.python"
+				},
+				{
+					"match": "\\b(จาก)\\b",
+					"name": "keyword.control.import.python"
+				},
+				{
+					"match": "\\b(นำเข้า)\\b",
+					"name": "keyword.control.import.python"
+				},
+				{
+					"match": "\\b(เป็น)\\b",
+					"name": "keyword.control.import.python"
+				},
+				{
+					"match": "\\b(และ|หรือ|ไม่|ใน|คือ)\\b",
+					"name": "keyword.operator.logical.python"
+				},
+				{
+					"match": "\\b(ทั่วไป|นอกเขต)\\b",
+					"name": "storage.modifier.declaration.python"
+				},
+				{
+					"match": "\\b(สำหรับ|ถ้า|อื่นถ้า|อื่น|ลอง|ยกเว้น|ขณะที่|ด้วย|หยุด|ทำต่อ|ผ่าน|ยก|คืนค่า|สุดท้าย|รอ|ให้)\\b",
+					"name": "keyword.control.flow.python"
+				},
+				{
+					"match": "\\b(แลมบ์ดา)\\b",
+					"name": "storage.type.function.lambda.python"
+				}
+			]
+		},
+		"literals": {
+			"patterns": [
+				{
+					"match": "\\b(จริง|เท็จ|ไม่มีค่า)\\b",
+					"name": "constant.language.python"
+				}
+			]
+		}
+	}
+}
