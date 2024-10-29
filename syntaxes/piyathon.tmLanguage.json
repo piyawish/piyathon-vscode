@@ -1,6 +1,7 @@
 {
 	"information_for_contributors": [
-		"This is a Piyathon syntax definition that extends MagicPython to support Thai keywords"
+		"This is a Piyathon syntax definition that extends MagicPython to support Thai keywords",
+		"https://github.com/microsoft/vscode/blob/main/extensions/python/syntaxes/MagicPython.tmLanguage.json"
 	],
 	"name": "Piyathon",
 	"scopeName": "source.piyathon",

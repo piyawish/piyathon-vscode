@@ -1,0 +1,13 @@
+{
+	"information_for_contributors": [
+		"This is a Piyathon regexp syntax definition that extends MagicRegExp to support Thai keywords",
+		"https://github.com/microsoft/vscode/blob/main/extensions/python/syntaxes/MagicRegExp.tmLanguage.json"
+	],
+	"name": "Piyathon RegExp",
+	"scopeName": "source.regexp.piyathon",
+	"patterns": [
+		{
+			"include": "source.regexp.python"
+		}
+	]
+}

@@ -31,6 +31,10 @@
         "language": "piyathon",
         "scopeName": "source.piyathon",
         "path": "./syntaxes/piyathon.tmLanguage.json"
+      },
+      {
+        "scopeName": "source.regexp.piyathon",
+        "path": "./syntaxes/regexp.tmLanguage.json"
       }
     ]
   },
