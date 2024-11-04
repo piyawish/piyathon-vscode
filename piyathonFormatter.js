@@ -1,11 +1,8 @@
 const vscode = require("vscode");
 
-// Thai to English keyword map (same as before)
-const keywordMap = {
-  ถ้า: "if",
-  มิฉะนั้น: "else",
-  // ... (other keywords)
-};
+// Load the keyword mappings from the JSON file
+const mappings = require("./python_mappings.json");
+const keywordMap = mappings.PI_TO_PY;
 
 function preprocessCode(code) {
   let processedCode = code;
