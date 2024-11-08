@@ -30,10 +30,7 @@ async function main() {
     const extensionDevelopmentPath = path.resolve(__dirname, "../");
 
     // The path to the extension test runner script
-    const extensionTestsPath = path.resolve(
-      __dirname,
-      "./suite/index"
-    );
+    const suite = path.resolve(__dirname, "./suite");
 
     // Download VS Code
     console.log("Downloading VS Code...");
@@ -93,7 +90,7 @@ async function main() {
     const testPromise = runTests({
       vscodeExecutablePath,
       extensionDevelopmentPath,
-      extensionTestsPath,
+      extensionTestsPath: suite,
       launchArgs: [
         workspacePath,
         "--disable-workspace-trust",
