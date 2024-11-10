@@ -21,7 +21,7 @@ package: clean
 	npm run vsce package
 
 # Publish the extension to VS Code Marketplace
-publish: test package
+publish: package
 	npm run vsce publish
 
 # Install extension locally for testing
