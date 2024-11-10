@@ -32,15 +32,3 @@ The extension will automatically install the required Python extension if it's n
 1. Create a new file with the `.pi` extension
 2. Start writing Piyathon code.
 3. The extension will automatically provide syntax highlighting and formatting support.
-
-## Release Notes
-
-### 0.0.1 (2024-11-11)
-
-Initial release of Piyathon VSCode Extension:
-
-- Basic language support for `.pi` files
-- Syntax highlighting for Thai Python keywords
-- Code formatting with Thai keyword preservation
-- Smart indentation for control structures
-- Integration with VS Code Python extension
