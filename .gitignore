@@ -130,3 +130,5 @@ dist
 .pnp.*
 
 *.code-workspace
+
+*.vsix

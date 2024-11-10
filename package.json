@@ -51,7 +51,10 @@
     "pretest": "npm run lint",
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "jest",
-    "test:integration": "node ./test/runTest.js"
+    "test:integration": "node ./test/runTest.js",
+    "vsce": "vsce",
+    "watch": "tsc -watch -p ./",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@types/vscode": "^1.94.0",
