@@ -1,70 +1,46 @@
-# piyathon-vscode README
+# Piyathon VSCode Extension
 
-This is the README for your extension "piyathon-vscode". After writing up a brief description, we recommend including the following sections.
+Piyathon VSCode Extension provides language support for the Piyathon programming language - a Thai variant of Python that allows developers to write Python code using Thai keywords.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Syntax Highlighting**: Full syntax highlighting support for Piyathon (`.pi`) files
+- **Thai Keyword Support**: Write Python code using Thai keywords:
+  - `นิยาม` for `def`
+  - `คลาส` for `class`
+  - `จริง/เท็จ` for `True/False`
+  - And many other control flow keywords in Thai. Check out the Piyathon language guide for details.
+- **Code Formatting**: Automatic code formatting support that preserves Thai keywords while applying Python formatting standards
+- **Smart Indentation**: Automatic indentation for control structures and function definitions
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code version 1.94.0 or higher
+- Python extension for VS Code (automatically installed as a dependency)
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Open VS Code
+2. Go to the Extensions view (Ctrl+Shift+X)
+3. Search for "Piyathon"
+4. Click Install
 
-For example:
+The extension will automatically install the required Python extension if it's not already installed.
 
-This extension contributes the following settings:
+## Usage
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+1. Create a new file with the `.pi` extension
+2. Start writing Piyathon code.
+3. The extension will automatically provide syntax highlighting and formatting support.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1 (2024-11-11)
 
-### 1.0.0
+Initial release of Piyathon VSCode Extension:
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-
-## Sources
-
-* [Python language configuration](https://github.com/microsoft/vscode/blob/main/extensions/python/language-configuration.json)
-* [Python syntax](https://github.com/microsoft/vscode/blob/main/extensions/python/syntaxes/MagicPython.tmLanguage.json)
+- Basic language support for `.pi` files
+- Syntax highlighting for Thai Python keywords
+- Code formatting with Thai keyword preservation
+- Smart indentation for control structures
+- Integration with VS Code Python extension
