@@ -17,6 +17,8 @@ Piyathon VSCode Extension provides language support for the Piyathon programming
 
 - Visual Studio Code version 1.94.0 or higher
 - Python extension for VS Code (automatically installed as a dependency)
+- Python version 3.12 or higher
+- [`piyathon`](https://pypi.org/project/piyathon/) Python package
 
 ## Installation
 
