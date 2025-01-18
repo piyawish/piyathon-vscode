@@ -2,7 +2,7 @@
   "name": "piyathon-vscode",
   "displayName": "Piyathon",
   "description": "Piyathon language support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "piyawish",
   "icon": "icon.png",
   "repository": {
@@ -31,6 +31,13 @@
           ".pi"
         ],
         "configuration": "./language-configuration.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "piyathon.convertToPython",
+        "title": "Translate to Python",
+        "when": "editorLangId == piyathon"
       }
     ],
     "grammars": [

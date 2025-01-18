@@ -133,3 +133,6 @@ dist
 
 *.vsix
 venv/
+
+*.pi
+*.py
