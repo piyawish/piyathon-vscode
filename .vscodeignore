@@ -11,3 +11,7 @@ vsc-extension-quickstart.md
 **/.vscode-test.*
 **/jest.config.js
 *.code-workspace
+
+**/*.pi
+**/*.py
+venv/**

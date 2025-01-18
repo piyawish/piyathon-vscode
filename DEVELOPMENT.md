@@ -160,6 +160,10 @@ To add new tests:
    npm run vsce publish
    ```
 
+   Extension URL: <https://marketplace.visualstudio.com/items?itemName=piyawish.piyathon-vscode>
+
+   INFO  Hub URL: <https://marketplace.visualstudio.com/manage/publishers/piyawish/extensions/piyathon-vscode/hub>
+
 ## Dependencies
 
 ### Production Dependencies
